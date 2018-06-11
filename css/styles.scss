@@ -1,0 +1,16 @@
+// Bulma Framework
+@import "bulma.min";
+@import "weather-icons";
+
+// Your Styles
+article {
+	text-align: center;
+}
+
+.column {
+	padding: 1.5em 0;
+}
+
+.icon i {	
+	font-size: 10em;
+}

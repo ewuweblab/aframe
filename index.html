@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <!-- RWD -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    
+    <!--  Bulma -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    
+    <!--  This Site/App -->
+    <title>Bulma Weather</title>
+    <link rel="stylesheet" href="css/styles.css">
+    
+  </head>
+  <body>
+    
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+  
+          <!-- Navbar Brand -->
+        <div class="navbar-brand">
+          <a class="navbar-item" href="#">
+            Bulma Weather
+          </a>
+
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu" >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+        
+        <!-- Navbar Menu -->
+        <div class="navbar-menu" id="navMenu">
+          <a href="cheney.html" class="navbar-item">Cheney</a>
+          <a href="seattle.html" class="navbar-item">Seattle</a>
+          <a href="location.html" class="navbar-item">Location</a>
+        </div>
+
+    </nav>
+
+<!--  is-half is-narrow -->
+
+    <article class="columns ">
+      <!-- City -->
+      <section class="column">
+        <h1 class="city is-size-1">City</h1>
+      </section>
+      <!-- Icon -->
+      <section class="column">
+        <span class="icon">
+          <i class="icon-0"> </i>
+        </span>
+      </section>
+      <!-- Temp -->  
+      <section class="column">
+        <h2 class="is-size-2"><span class="temp">00</span>&deg;</h2>    
+      </section>
+        
+    </article>    
+    
+  
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/simpleweather.js"></script>
+  <script src="js/scripts.js"></script>
+
+  </body>
+</html>
