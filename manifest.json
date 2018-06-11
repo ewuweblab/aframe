@@ -1,7 +1,13 @@
 {
+<<<<<<< HEAD
     "name": “360 Me”,
     "short_name": “360 Me”,
     "description": “360 Image viewer using Aframe”,
+=======
+    "name": “Bulma Weather“,
+    "short_name": “Bulma Weather“,
+    "description": “PWA Weather App”,
+>>>>>>> 23d379b8200eb493eed5f206abae6dfad0b5f100
     "start_url": "/",
     "display": "standalone",
     "background_color": "#ffffff",
