@@ -2,7 +2,7 @@
 {
     "name": "Aframe Viewer",
     "short_name": "Aframe Viewer",
-    "start_url": "/",
+    "start_url": "/aframe/",
     "description": "360 Image Viewer",
     "icons": [
         {
